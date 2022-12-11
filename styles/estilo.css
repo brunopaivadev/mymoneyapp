@@ -1,0 +1,133 @@
+* {
+  background-color: #0e0e0e;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+/* Capa Login */
+#capa-login {
+  margin: 0 auto;
+  position: relative;
+}
+
+.login img {
+  width: 450px;
+}
+
+.login {
+  padding: 20px 100px;
+}
+
+.capa {
+  height: 100vh;
+  background-image: url("../assets/red.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
+.formulario {
+  padding: 0px 80px;
+  text-align: left;
+}
+
+.formulario input {
+  background: #1c1c1c;
+  border: none;
+  padding: 15px;
+  color: white;
+}
+
+#exampleInputEmail1::placeholder {
+  color: white;
+}
+
+#exampleInputPassword1::placeholder {
+  color: white;
+}
+
+.form-check input {
+  padding: 5px !important;
+}
+
+.form-check-input:checked {
+  background-color: #fb0101 !important;
+}
+
+.formulario button {
+  background-color: #fb0101 !important;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px !important;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.formulario button:hover {
+  background-color: #5e0000 !important;
+}
+
+/*Texto senha e cadastro*/
+.txt-rodape {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+a {
+  color: #fb0101 !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #5e0000 !important;
+}
+
+.txt-cadastro {
+  padding-top: 150px;
+}
+
+/*Responsivo*/
+@media (max-width: 650px) {
+  .capa {
+    display: none;
+  }
+
+  .formulario {
+    padding: 0px 40px;
+  }
+}
+
+@media (min-width: 650px) {
+  .capa {
+    max-width: 20%;
+  }
+  .login {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 540px) and (min-width: 280px) {
+  .formulario {
+    padding: 0px 20px;
+  }
+  .txt-cadastro {
+    padding-top: 0px;
+  }
+  .login img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+  .login img {
+    width: 250px;
+  }
+  .txt-cadastro {
+    padding-top: 0;
+  }
+}
