@@ -1,0 +1,109 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: #0e0e0e !important;
+}
+
+body {
+  background-color: #0e0e0e !important;
+}
+
+.card {
+  background-color: #0e0e0e !important;
+}
+
+.box-principal {
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: #0e0e0e;
+}
+
+.meses .dropdown-toggle {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.meses .dropdown-item {
+  color: #fff !important;
+}
+
+.cartao-saldo .card-body {
+  background: linear-gradient(
+    99.23deg,
+    #5e0000 12.02%,
+    #ff0000 58.57%,
+    #1a0000 105.13%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 40px;
+  height: 180px;
+}
+
+.card-body h2 {
+  background-color: transparent !important;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.section-cards {
+  display: flex;
+  background-color: #0e0e0e !important;
+}
+
+.card .receita {
+  background-color: #fd0f0f !important;
+  width: 50px;
+  display: flex;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.card-img {
+  height: 30px;
+  width: 30px !important;
+  float: left;
+}
+
+.card {
+  display: flex !important;
+}
+.card-value,
+.divida,
+.valor {
+  color: #dea7a7;
+  font-weight: 600;
+}
+.card-salario,
+.valor {
+  color: #a6de9d;
+}
+
+.receitas,
+.valor,
+.despesa,
+.divida {
+  padding-left: 50px !important;
+}
+.transacoes {
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: #0e0e0e;
+}
+.titulo-transacao h4 {
+  font-weight: 600;
+}
+.navbar {
+  max-width: 540px !important;
+  margin: 0 auto;
+  background-color: #888888 !important;
+}
+.navbar-brand,
+.nav-link {
+  padding-top: 50px !important;
+  font-size: 10px !important;
+}
+.card-title,
+h5 {
+  font-weight: 600;
+}
