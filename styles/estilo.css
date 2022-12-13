@@ -91,6 +91,24 @@ a:hover {
   padding-top: 150px;
 }
 
+.btn-login {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.btn-login a { 
+  padding: 10px 5rem;
+  background: #fb0101;
+  color: #FFF !important;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.btn-login a:hover {
+  background: #5e0000;
+}
+
 /*Responsivo*/
 @media (max-width: 650px) {
   .capa {
