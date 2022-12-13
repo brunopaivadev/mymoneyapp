@@ -64,7 +64,7 @@ body {
 }
 
 .card .receita {
-  background-color: #fd0f0f !important;
+  background-color: #FB0101 !important;
   width: 50px;
   display: flex;
   border-radius: 15px;
@@ -164,7 +164,7 @@ h5 {
 
 .botao-add {
   border-radius: 10px;
-  background: #fd0f0f;
+  background: #FB0101;
   width: 63px;
   height: 40px;
   text-align: center;
@@ -175,4 +175,49 @@ h5 {
   color: #0e0e0e;
   font-size: 40px;
   font-weight: 600;
+}
+
+/* Modal */
+.modal-content {
+  background: #0e0e0e !important;
+  color: #FFF !important;
+  border: 1px solid #464646 !important;
+}
+
+.modal.show .modal-dialog {
+  margin-top: 250px !important;
+}
+
+.form-select {
+  background: #1C1C1C !important;
+  color: #FFF !important;
+}
+
+.form-control {
+  background: #1C1C1C !important;
+  color: #FFF !important;
+}
+
+.form-check-input:checked {
+  background: #FB0101 !important;
+  border: none;
+}
+
+.btn-primary {
+  background: #FB0101 !important;
+  border: none !important;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+.col-sm-2 {
+    flex: 0 0 auto;
+    width: 100% !important;
+}
 }

@@ -226,8 +226,9 @@
         </li>
         <div class="botao-add">
           <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><span class="material-symbols-outlined"> add </span></a
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              >
+              <span class="material-symbols-outlined"> add </span></a
             >
           </li>
         </div>
@@ -244,6 +245,79 @@ person_2
           <a class="nav-link" href="#">Perfil</a>
         </li>
       </ul>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-cadastro">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Cadastrar Transação</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: fd0f0f !important;"></button>
+      </div>
+
+
+<!-- Input Status -->
+      <div class="modal-body"> <label for="staticEmail" class="col-sm-2 col-form-label">Status da Transação</label>
+      <div class="form-check form-switch">
+        
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+  <label class="form-check-label" for="flexSwitchCheckDefault">Realizado</label>
+</div>
+      </div>
+
+
+      <!-- Input Tipo -->
+      <div class="modal-body">
+           <label for="staticEmail" class="col-sm-2 col-form-label">Tipo de Transação</label>
+        <select class="form-select">
+  <option value="1">Receita</option>
+  <option value="2">Despesa</option>
+  <option value="3">Investimento</option>
+</select>
+      </div>
+
+       <!-- Input Data -->
+      <div class="modal-body">
+        <label for="data" class="col-sm-2 col-form-label">Data</label>
+      <div class="input-group mb-3">
+  <input type="date" class="form-control" aria-label="Data">
+</div>
+</div>
+
+      <!-- Input Valor -->
+      <div class="modal-body">
+        <label for="staticEmail" class="col-sm-2 col-form-label">Valor</label>
+      <div class="input-group mb-3">
+  <span class="input-group-text">R$</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest reais)">
+  <span class="input-group-text">.00</span>
+</div>
+</div>
+
+   <!-- Input Data -->
+      <div class="modal-body">
+        <label for="descricao" class="col-sm-2 col-form-label">Descrição</label>
+      <div class="input-group mb-3">
+  <input type="text" class="form-control" aria-label="Data">
+</div>
+</div>
+
+
+
+
+
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary btn-salvar">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
     </div>
     <!-- FINAL DIV BOX-PRINCIPAL -->
 
