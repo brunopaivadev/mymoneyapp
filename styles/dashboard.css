@@ -1,21 +1,20 @@
-* {
-  font-family: "Open Sans", sans-serif;
-  color: white;
-  background-color: #0e0e0e !important;
-}
 
 body {
-  background-color: #0e0e0e !important;
+  background-color: #1C1C1C !important;
+  font-family: "Open Sans", sans-serif;
+  color: white !important;
 }
 
 .card {
   background-color: #0e0e0e !important;
+  border: none !important;
 }
 
 .box-principal {
   max-width: 550px;
   margin: 0 auto;
   background-color: #0e0e0e;
+  padding: 0px 30px;
 }
 
 .meses .dropdown-toggle {
@@ -40,10 +39,23 @@ body {
   height: 180px;
 }
 
+.card-duplo {
+  padding: 20px;
+}
+
 .card-body h2 {
   background-color: transparent !important;
   font-weight: 600;
   padding-top: 10px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 14px;
 }
 
 .section-cards {
@@ -56,6 +68,20 @@ body {
   width: 50px;
   display: flex;
   border-radius: 15px;
+  margin-right: 10px;
+}
+
+.card-despesa {
+  border-radius: 15px;
+  border: 1px solid #464646;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.card-receita {
+  border-radius: 15px;
+  border: 1px solid #464646;
+  padding: 20px;
   margin-right: 10px;
 }
 
@@ -74,9 +100,14 @@ body {
   color: #dea7a7;
   font-weight: 600;
 }
-.card-salario,
+
+.valor-positivo,
 .valor {
   color: #a6de9d;
+}
+
+.card-valor {
+  text-align: right;
 }
 
 .receitas,
@@ -85,25 +116,63 @@ body {
 .divida {
   padding-left: 50px !important;
 }
+
 .transacoes {
   max-width: 550px;
   margin: 0 auto;
   background-color: #0e0e0e;
 }
+
 .titulo-transacao h4 {
   font-weight: 600;
+  padding: 20px 0;
 }
-.navbar {
-  max-width: 540px !important;
-  margin: 0 auto;
-  background-color: #888888 !important;
-}
-.navbar-brand,
-.nav-link {
-  padding-top: 50px !important;
-  font-size: 10px !important;
-}
+
 .card-title,
 h5 {
+  font-weight: 600;
+}
+
+
+/* Navbar */
+.navbar {
+  max-width: 540px !important;
+  border-top: 1px solid #2F2F2F;
+  bottom: 0 !important;
+  margin-top: 40px;
+}
+
+.nav-item {
+  position: relative;
+  display: grid;
+  text-align: center !important;
+}
+
+.nav-item span {
+  color: #888888;
+}
+
+.nav-link {
+  padding: 0px !important;
+  color: #888888 !important;
+  margin: 0 10px;
+}
+
+.active {
+  color: #fd0f0f !important;
+}
+
+.botao-add {
+  border-radius: 10px;
+  background: #fd0f0f;
+  width: 63px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.botao-add span {
+  color: #0e0e0e;
+  font-size: 40px;
   font-weight: 600;
 }

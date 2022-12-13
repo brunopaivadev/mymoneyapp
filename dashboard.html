@@ -25,7 +25,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <title>MyMoney - DASHBOARD</title>
+    <title>MyMoney - Dashboard</title>
   </head>
 
   <body>
@@ -75,7 +75,7 @@
           <h2>R$ 8.981,21</h2>
         </div>
       </div>
-      <div class="card-group">
+      <div class="card-group card-duplo">
         <div class="card col-6">
           <div class="card-body card-receita">
             <img
@@ -100,113 +100,153 @@
           </div>
         </div>
       </div>
+
+      <!--Ultimas Transações-->
+      <div class="transacoes">
+        <div class="text-center titulo-transacao">
+          <h4>Últimas Transações</h4>
+        </div>
+
+        <div class="card" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-1 card-body">
+              <img
+                src="./assets/arrow-down-circle.png"
+                class="card-img"
+                alt="Seta para Baixo"
+                style="width: 30px"
+              />
+              <div class="container text-center"></div>
+            </div>
+            <div class="card-body col-6">
+              <h5 class="card-title">Fatura do Cartão</h5>
+              <p class="card-text">01 de Dezembro de 2022</p>
+            </div>
+            <div class="card-body col-4">
+              <h6 class="card-value card-valor">R$ 1.200,00</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-1 card-body">
+              <img
+                src="./assets/arrow-down-circle.png"
+                class="card-img"
+                alt="Seta para Baixo"
+                style="width: 30px"
+              />
+              <div class="container text-center"></div>
+            </div>
+            <div class="card-body col-6">
+              <h5 class="card-title">Supermercado</h5>
+              <p class="card-text">02 de Dezembro de 2022</p>
+            </div>
+            <div class="card-body col-4">
+              <h6 class="card-value card-valor">R$ 750.00</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-1 card-body">
+              <img
+                src="./assets/arrow-up-circle.png"
+                class="card-img"
+                alt="Seta para Cima"
+                style="width: 30px"
+              />
+              <div class="container text-center"></div>
+            </div>
+            <div class="card-body col-6">
+              <h5 class="card-title">Salário</h5>
+              <p class="card-text">10 de Dezembro de 2022</p>
+            </div>
+            <div class="card-body col-4">
+              <h6 class="card-value card-valor valor-positivo">R$ 4.800,00</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-1 card-body">
+              <img
+                src="./assets/arrow-up-circle.png"
+                class="card-img"
+                alt="Seta para Cima"
+                style="width: 30px"
+              />
+              <div class="container text-center"></div>
+            </div>
+            <div class="card-body col-6">
+              <h5 class="card-title">Aluguel Imóvel</h5>
+              <p class="card-text">12 de Dezembro de 2022</p>
+            </div>
+            <div class="card-body col-4">
+              <h6 class="card-value card-valor valor-positivo">R$ 3.550,00</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-1 card-body">
+              <img
+                src="./assets/arrow-down-circle.png"
+                class="card-img"
+                alt="Seta para Baixo"
+                style="width: 30px"
+              />
+              <div class="container text-center"></div>
+            </div>
+            <div class="card-body col-6">
+              <h5 class="card-title">Academia</h5>
+              <p class="card-text">12 de Dezembro de 2022</p>
+            </div>
+            <div class="card-body col-4">
+              <h6 class="card-value card-valor">R$ 150,00</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Ultimas Transações-->
+
+      <!-- Nav -->
+      <ul class="nav justify-content-space-around navbar">
+        <li class="nav-item">
+          <span class="material-symbols-outlined active"> grid_view </span>
+          <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <span class="material-symbols-outlined"> format_list_bulleted </span>
+          <a class="nav-link" href="#">Transações</a>
+        </li>
+        <div class="botao-add">
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><span class="material-symbols-outlined"> add </span></a
+            >
+          </li>
+        </div>
+        <li class="nav-item">
+          <span class="material-symbols-outlined">
+ads_click
+</span>
+          <a class="nav-link" href="#">Objetivos</a>
+        </li>
+        <li class="nav-item">
+          <span class="material-symbols-outlined">
+person_2
+</span>
+          <a class="nav-link" href="#">Perfil</a>
+        </li>
+      </ul>
     </div>
-    <!--Ultimas Transações-->
-    <div class="transacoes">
-      <div class="text-center titulo-transacao">
-        <h4>Ultimas Transações</h4>
-      </div>
+    <!-- FINAL DIV BOX-PRINCIPAL -->
 
-      <div class="card" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-1 card-body">
-            <img
-              src="./assets/arrow-down-circle.png"
-              class="card-img"
-              alt="Seta para Baixo"
-              style="width: 30px"
-            />
-            <div class="container text-center"></div>
-          </div>
-          <div class="card-body col-6">
-            <h5 class="card-title">Fatura do Cartão</h5>
-            <p class="card-text">05 de Outubro de 2022</p>
-          </div>
-          <div class="card-body col-4">
-            <h6 class="card-value">R$ 1.200,00</h6>
-          </div>
-        </div>
-      </div>
-
-      <div class="card" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-1 card-body">
-            <img
-              src="./assets/arrow-down-circle.png"
-              class="card-img"
-              alt="Seta para Baixo"
-              style="width: 30px"
-            />
-            <div class="container text-center"></div>
-          </div>
-          <div class="card-body col-6">
-            <h5 class="card-title">Supermercado</h5>
-            <p class="card-text">05 de Outubro de 2022</p>
-          </div>
-          <div class="card-body col-4">
-            <h6 class="card-value">R$ 750.00</h6>
-          </div>
-        </div>
-      </div>
-
-      <div class="card" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-1 card-body">
-            <img
-              src="./assets/arrow-up-circle.png"
-              class="card-img"
-              alt="Seta para Cima"
-              style="width: 30px"
-            />
-            <div class="container text-center"></div>
-          </div>
-          <div class="card-body col-6">
-            <h5 class="card-title">Salário</h5>
-            <p class="card-text">01 de Outubro de 2022</p>
-          </div>
-          <div class="card-body col-4">
-            <h6 class="card-value card-salario">R$ 4.800,00</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Botões rodapé-->
-   <!--teste <nav class="navbar navbar-expand-lg bg-light"> -->
-   <!--teste   <div class="container-fluid"> -->
-        <a class="navbar-brand" href="#">Dashboard</a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-     <!--teste  <div class="collapse navbar-collapse" id="navbarNav"> -->
-          <ul class="navbar-nav">
-            <li class="nav-item "style="max-width: 540px"></li>">
-              <a class="nav-link active "style="max-width: 540px"> <aria-current="page" href="#"
-                >Transações</a
-              >
-              <span class="material-symbols-outlined"> grid_view </span>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">More</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Objetivos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Menu</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
